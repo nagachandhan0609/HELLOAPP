@@ -1,0 +1,20 @@
+public class HelloName "World";
+
+        
+        if (args.length > 0) {
+            message = "";
+
+            
+            for (int i = 0; i < args.length; i++) {
+                message += args[i];
+
+                
+                if (i < args.length - 1) {
+                    message += " ";
+                }
+            }
+        }
+
+        System.out.println("Hello, " + message + "!");
+    }
+}
